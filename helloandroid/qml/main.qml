@@ -5,7 +5,7 @@ import QtQuick.Controls.Material
 ApplicationWindow {
     id: window
     visible: true
-    width: 360; height: 480
+    width: 600; height: 800
 
     header: ToolBar {
         Material.primary: "#41cd52"
@@ -27,7 +27,7 @@ ApplicationWindow {
 
             Label {
                 id: titleLabel
-                text: qsTr("示例程序")
+                text: qsTr("APP示例")
                 font.pixelSize: 20
                 elide: Label.ElideRight
                 horizontalAlignment: Qt.AlignHCenter
@@ -50,11 +50,11 @@ ApplicationWindow {
                     transformOrigin: Menu.TopRight
 
                     MenuItem {
-                        text: qsTr("关于")
+                        text: qsTr("关于我")
                         onTriggered: aboutDialog.open()
                     }
                     MenuItem {
-                        text: qsTr("退出")
+                        text: qsTr("退出程序")
                         onTriggered: Qt.quit()
                     }
                 }
