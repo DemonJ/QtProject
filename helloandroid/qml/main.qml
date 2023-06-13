@@ -113,7 +113,7 @@ ApplicationWindow {
             }
             Label {
                 text: qsTr("这是Qt Quick安卓版演示程序，欢迎访问Qt开源社区"
-                           + "获取更多内容！也可以使用微信扫描上方图片关注公众号！")
+                           + "获取更多内容！也可以使用微信扫描二维码关注公众号！")
                 anchors.margins: 20
                 anchors.top: logo.bottom
                 anchors.left: parent.left
